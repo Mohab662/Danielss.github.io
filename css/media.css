@@ -1,0 +1,82 @@
+
+
+@media screen and (max-width: 1170px){
+    
+    /* home */
+    .big-font{
+        font-size:44px;
+        font-weight: 200;
+    }
+    .home-ani::before{
+        content: "";
+        width:600px;
+        text-align: left;
+        animation: home-ani 8s infinite  ;
+        position: absolute;
+        left: 63%;
+        font-size: 44px;
+        font-weight: 400;
+    }
+
+}
+@media screen and (max-width:992px){
+    /* navbar */
+    #navId .w-58{
+        width: 80%;
+    }
+    /* home */
+
+}
+@media screen and (max-width:768px){
+    /* navbar */
+    #navId .w-58{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+    #navId .nav-item{
+        margin-bottom: 20px;
+    }
+    /* home */
+    .big-font{
+        font-size:30px;
+        font-weight: 200;
+    }
+    .home-ani{
+        position: relative;
+        transform: translateX(-18%);
+    }
+    .home-ani::before{
+        content: "";
+        width:600px;
+        text-align: left;
+        animation: home-ani 8s infinite  ;
+        position: absolute;
+        left: 61%;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    /* about */
+   #about .container-fluid{
+    padding-left: 45px;
+
+   }
+
+
+}
+@media screen and (max-width:578px){
+    /* about */
+    #about .my-mb{
+        margin-bottom: 60px;
+    }
+    /* services */
+    #services .mb-568{
+        margin-bottom: 28px;
+    }
+
+}
+
